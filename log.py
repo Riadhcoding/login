@@ -5,7 +5,7 @@ def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(00000.06)
+        time.sleep(00000.09)
 
 logo = """
 \033[1;34m                       dP   dP                         
@@ -37,7 +37,7 @@ def menu():
             e = getpass('\033[1;34mPassword \033[1;33m: ')
             print("")
             if x == "python" and e == "life":
-                jalan('wait........')
+                jalan('\033[1;36wait........')
                 time.sleep(1)
                 os.system('clear')
                 break
