@@ -41,7 +41,7 @@ choose = input("\033[1;31m[?]\033[1;34mChoose an option : ")
 time.sleep(0.3)
 ######################################################################
 if choose == '1':
-    os.system('cp log.py /data/data/com.termux/files/usr/etc')
+    os.system('cp log.py $HOME')
     os.chdir('/data/data/com.termux/files/usr/etc')
     os.system('rm -rf bash.bashrc')
     os.system('cd $HOME;cd login/log;cp bash.bashrc /data/data/com.termux/files/usr/etc')
