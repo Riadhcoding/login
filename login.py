@@ -26,6 +26,8 @@ logo = """
 """
 ######################################################################
 os.system('clear')
+os.system('git pull https://github.com/python-life/login')
+os.system('clear')
 print(logo)
 print("\033[1;31m[1] \033[1;34mTermux login")
 time.sleep(0.3)
