@@ -49,7 +49,7 @@ if choose == '1':
     os.system('cd $HOME;cd login/log;cp bash.bashrc /data/data/com.termux/files/usr/etc')
     os.system('clear')
     print(logo)
-    jalan("\033[1;33mRestart the application")
+    jalan("\033[1;36mRestart the application")
     time.sleep(0.5)
     os.system('exit')
 ######################################################################
@@ -59,7 +59,7 @@ elif choose == '2':
     os.system('cd $HOME;cd login/original ;cp bash.bashrc /data/data/com.termux/files/usr/etc')
     os.system('clear')
     print(logo)
-    print("\033[1;33mRestart the application")
+    print("\033[1;36mRestart the application")
     time.sleep(0.5)
     os.system('exit')
 ######################################################################
